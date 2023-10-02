@@ -13,7 +13,7 @@
 		<form name='formulario_operaciones' action='' method='post' action='color2.php'>
 			<table>
 				<tr>
-					<td>Escriba su Nombre: </td>
+					<td><label for="nombre">Escriba su Nombre:</label></td>
 					<td><input type='text' name='nombre' placeholder='Nombre'></td>
 				</tr>
                 <tr>
@@ -21,14 +21,14 @@
 					<td><input type='password' name='pass'placeholder='Contraseña'></td>
 				</tr>
                 <tr>
-					<td>Elija su marca de coche: <br> 
+					<td>Elija su marca de coche: <br>
                         <input type='radio' name='coche' value='citroen' >Citroën<br>
                         <input type='radio' name='coche' value='citroen' >Jeep<br>
                         <input type='radio' name='coche' value='citroen' >Toyota<br>
                     </td>
 				</tr>
                 <tr>
-					<td>Elija su Comunidad Autonoma: <br> 
+					<td>Elija su Comunidad Autonoma: <br>
                         <input type='checkbox' name='comunidad' value='andalucia' >Andalucia<br>
                         <input type='checkbox' name='comunidad' value='galicia' >Galicia<br>
                         <input type='checkbox' name='comunidad' value='vasco' >Pais Vasco<br>
@@ -37,7 +37,7 @@
                     </td>
 				</tr>
                 <tr>
-					<td>Escoja un animal: 
+					<td>Escoja un animal:
 
                         <select name='animal'>
                             <option>León</option>
@@ -49,7 +49,7 @@
                     </td>
 				</tr>
                 <tr>
-					<td>Escoja un color: <br> 
+					<td>Escoja un color: <br>
                         <input type='radio' name='color' value='purple'>Lila<br>
                         <input type='radio' name='color' value='celeste'>Celeste<br>
                         <input type='radio' name='color' value='beige' >Beige<br>
@@ -62,7 +62,7 @@
 				</tr>
                 <tr>
 					<td>Campo oculto: <br>
-						<input type='hidden' name='oculto' >
+						<input type='hidden' name='oculto' value='Valor oculto' >
 					</td>
 				</tr>
 				<tr>
